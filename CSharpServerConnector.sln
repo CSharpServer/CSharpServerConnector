@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFA4664B-246B-45F3-92F7-A62C72372634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59108761-5F3A-4136-AF69-111850A17764}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSharpServerConnector", "src\CSharpServerConnector\CSharpServerConnector.xproj", "{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSServerJsonProtocol", "..\CSServerJsonProtocol\src\CSServerJsonProtocol\CSServerJsonProtocol.xproj", "{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSharpServerFrameworkAbstract", "..\CSharpServerFrameworkAbstract\src\CSharpServerFrameworkAbstract\CSharpServerFrameworkAbstract.xproj", "{6D288983-6691-47A2-A057-3649A8563064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D288983-6691-47A2-A057-3649A8563064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D288983-6691-47A2-A057-3649A8563064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D288983-6691-47A2-A057-3649A8563064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D288983-6691-47A2-A057-3649A8563064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E19C6FBB-8C49-4B4F-A21B-FCFF5527FC1A} = {BFA4664B-246B-45F3-92F7-A62C72372634}
+		{15B91E64-470E-4DF0-9B13-A6AD4B7C5E53} = {59108761-5F3A-4136-AF69-111850A17764}
+	EndGlobalSection
+EndGlobal
