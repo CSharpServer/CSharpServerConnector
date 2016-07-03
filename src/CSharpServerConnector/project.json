@@ -1,12 +1,8 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "CSharpServerConnector Class Library",
-  "authors": [ "CPlover" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
   "frameworks": {
-    "dnx451": { }
+    "net451": { }
   },
   "dependencies": {
     "CSharpServerFrameworkAbstract": "1.0.0-*",

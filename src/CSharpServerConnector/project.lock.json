@@ -2,7 +2,7 @@
   "locked": false,
   "version": 2,
   "targets": {
-    "DNX,Version=v4.5.1": {
+    ".NETFramework,Version=v4.5.1": {
       "Newtonsoft.Json/9.0.1": {
         "type": "package",
         "compile": {
@@ -79,7 +79,7 @@
       "CSServerJsonProtocol >= 1.0.0-*",
       "CSharpServerFrameworkAbstract >= 1.0.0-*"
     ],
-    "DNX,Version=v4.5.1": []
+    ".NETFramework,Version=v4.5.1": []
   },
   "tools": {},
   "projectFileToolGroups": {}
