@@ -2,7 +2,7 @@
   "version": "1.0.0-*",
   "description": "CSharpServerConnector Class Library",
   "frameworks": {
-    "net451": { }
+    "netcoreapp1.0": {}
   },
   "dependencies": {
     "CSharpServerFrameworkAbstract": "1.0.0-*",
